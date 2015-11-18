@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Selenium Tests]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <parameter name="appURL" value="http://newtours.demoaut.com/mercuryregister.php"/>
+  <test name="Test in FF(failed)" parallel="tests" preserve-order="true">
+    <parameter name="browser" value="FF"/>
+    <parameter name="appURL" value="http://newtours.demoaut.com/mercuryregister.php"/>
+    <classes>
+      <class name="com.seleniumtests.test.WebDriverTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="setEnv"/>
+          <include name="testRegistrationNew"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

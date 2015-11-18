@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="TestSuite" time="6.547" errors="0" skipped="0">
+  <properties>
+    <property name="env.OLDPWD" value="/Applications"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre"/>
+    <property name="LOGNAME" value="Yousef"/>
+    <property name="env.GIT_URL" value="https://github.com/Alhajsalem/SeleniumTest.git"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="/Applications/Jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="env.SECURITYSESSIONID" value="186a6"/>
+    <property name="TERM_PROGRAM_VERSION" value="326"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="env.LOGNAME" value="Yousef"/>
+    <property name="env.POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="env.HUDSON_HOME" value="/Users/Yousef/.jenkins"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="env.NODE_NAME" value="master"/>
+    <property name="env.TERM_PROGRAM_VERSION" value="326"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="JOB_NAME" value="Selenium2Maven"/>
+    <property name="env.NODE_LABELS" value="master"/>
+    <property name="env.JENKINS_SERVER_COOKIE" value="293ab370a5202a69"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="env.JAVA_MAIN_CLASS_13089" value="jenkins.maven3.agent.Maven31Main"/>
+    <property name="user.name" value="Yousef"/>
+    <property name="env.LANG" value="de_DE.UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="surefire.test.class.path" value="/Users/Yousef/Documents/workspace/seleniumtests/target/test-classes:/Users/Yousef/Documents/workspace/seleniumtests/target/classes:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-server/2.48.2/selenium-server-2.48.2.jar:/Users/Yousef/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Yousef/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar:/Users/Yousef/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar:/Users/Yousef/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Yousef/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.2.13.v20150730/jetty-repacked-9.2.13.v20150730.jar:/Users/Yousef/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/jetty-rc-repacked/5/jetty-rc-repacked-5.jar:/Users/Yousef/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-java/2.48.2/selenium-java-2.48.2.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.48.2/selenium-chrome-driver-2.48.2.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.48.2/selenium-remote-driver-2.48.2.jar:/Users/Yousef/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Yousef/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-api/2.48.2/selenium-api-2.48.2.jar:/Users/Yousef/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.48.2/selenium-edge-driver-2.48.2.jar:/Users/Yousef/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/Yousef/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.48.2/selenium-htmlunit-driver-2.48.2.jar:/Users/Yousef/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.18/htmlunit-2.18.jar:/Users/Yousef/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/Yousef/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/Yousef/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Yousef/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/Yousef/.m2/repository/org/apache/httpcomponents/httpmime/4.5/httpmime-4.5.jar:/Users/Yousef/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar:/Users/Yousef/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/Yousef/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/Yousef/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar:/Users/Yousef/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar:/Users/Yousef/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Yousef/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Yousef/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.2.12.v20150709/websocket-client-9.2.12.v20150709.jar:/Users/Yousef/.m2/repository/org/eclipse/jetty/jetty-util/9.2.12.v20150709/jetty-util-9.2.12.v20150709.jar:/Users/Yousef/.m2/repository/org/eclipse/jetty/jetty-io/9.2.12.v20150709/jetty-io-9.2.12.v20150709.jar:/Users/Yousef/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.2.12.v20150709/websocket-common-9.2.12.v20150709.jar:/Users/Yousef/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.2.12.v20150709/websocket-api-9.2.12.v20150709.jar:/Users/Yousef/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/Users/Yousef/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.48.2/selenium-firefox-driver-2.48.2.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.48.2/selenium-ie-driver-2.48.2.jar:/Users/Yousef/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/Yousef/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.48.2/selenium-safari-driver-2.48.2.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-support/2.48.2/selenium-support-2.48.2.jar:/Users/Yousef/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/Yousef/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/Yousef/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.48.2/selenium-leg-rc-2.48.2.jar:/Users/Yousef/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Yousef/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Yousef/.m2/repository/org/testng/testng/6.3.1/testng-6.3.1.jar:/Users/Yousef/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/Yousef/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="path.separator" value=":"/>
+    <property name="BUILD_TAG" value="jenkins-Selenium2Maven-7"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="env.com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/apache-maven-3.3.3/bin"/>
+    <property name="env.HOME" value="/Users/Yousef"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3 /Users/Yousef/.jenkins/war/WEB-INF/lib/remoting-2.53.jar /Users/Yousef/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/Yousef/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 55070"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="env.TERM_SESSION_ID" value="8092BA2E-A36F-433F-A58A-B2F752C9DB04"/>
+    <property name="JENKINS_SERVER_COOKIE" value="293ab370a5202a69"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="env.BUILD_TAG" value="jenkins-Selenium2Maven-7"/>
+    <property name="env._" value="/usr/bin/java"/>
+    <property name="GIT_COMMIT" value="6b4d870beca00689ec1eaf17c17f16103d6575fb"/>
+    <property name="java.io.tmpdir" value="/var/folders/p9/c57spvhn2dj7yf3tjshdlmqh0000gn/T/"/>
+    <property name="user.language" value="de"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Selenium2Maven/7/"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3"/>
+    <property name="USER" value="Yousef"/>
+    <property name="env.JOB_NAME" value="Selenium2Maven"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="localRepository" value="/Users/Yousef/.m2/repository"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0:3"/>
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/Selenium2Maven/7/"/>
+    <property name="env.M2_HOME" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="env.__CHECKFIX1436934" value="1"/>
+    <property name="HUDSON_SERVER_COOKIE" value="293ab370a5202a69"/>
+    <property name="com.apple.java.jvmTask" value="CommandLine"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="env.POM_ARTIFACTID" value="seleniumtests"/>
+    <property name="MAVEN_HOME" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3"/>
+    <property name="Apple_PubSub_Socket_Render" value="/tmp/launch-YRmIP8/Render"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="maven3.interceptor.common" value="/Users/Yousef/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="JAVA_ARCH" value="x86_64"/>
+    <property name="env.HUDSON_SERVER_COOKIE" value="293ab370a5202a69"/>
+    <property name="env.JAVA_MAIN_CLASS_6693" value="Main"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="TMPDIR" value="/var/folders/p9/c57spvhn2dj7yf3tjshdlmqh0000gn/T/"/>
+    <property name="env.BUILD_NUMBER" value="7"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="env.JAVA_ARCH" value="x86_64"/>
+    <property name="env.TERM" value="xterm-256color"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="JAVA_MAIN_CLASS_6693" value="Main"/>
+    <property name="env.JOB_URL" value="http://localhost:8080/job/Selenium2Maven/"/>
+    <property name="maven3.interceptor" value="/Users/Yousef/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
+    <property name="java.library.path" value="/Users/Yousef/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="env.PATH" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/local/apache-maven-3.3.3/bin"/>
+    <property name="env.HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="env.JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="POM_GROUPID" value="com.seleniumtests"/>
+    <property name="POM_ARTIFACTID" value="seleniumtests"/>
+    <property name="basedir" value="/Users/Yousef/Documents/workspace/seleniumtests"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="env.SHLVL" value="1"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Selenium2Maven/"/>
+    <property name="env.GIT_COMMIT" value="6b4d870beca00689ec1eaf17c17f16103d6575fb"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="6b4d870beca00689ec1eaf17c17f16103d6575fb"/>
+    <property name="env.JENKINS_HOME" value="/Users/Yousef/.jenkins"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="TERM_SESSION_ID" value="8092BA2E-A36F-433F-A58A-B2F752C9DB04"/>
+    <property name="SECURITYSESSIONID" value="186a6"/>
+    <property name="JENKINS_HOME" value="/Users/Yousef/.jenkins"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.POM_DISPLAYNAME" value="seleniumtests"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="env.USER" value="Yousef"/>
+    <property name="HUDSON_HOME" value="/Users/Yousef/.jenkins"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="6b4d870beca00689ec1eaf17c17f16103d6575fb"/>
+    <property name="PATH+MAVEN" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3/bin"/>
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="OLDPWD" value="/Applications"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="env.MAVEN_HOME" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="java.ext.dirs" value="/Users/Yousef/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="os.version" value="10.9.5"/>
+    <property name="user.home" value="/Users/Yousef"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="user.dir" value="/Users/Yousef/Documents/workspace/seleniumtests"/>
+    <property name="env.PWD" value="/Applications/Jenkins"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.TMPDIR" value="/var/folders/p9/c57spvhn2dj7yf3tjshdlmqh0000gn/T/"/>
+    <property name="env.GIT_PREVIOUS_COMMIT" value="6b4d870beca00689ec1eaf17c17f16103d6575fb"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.class.path" value="/Users/Yousef/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3/boot/plexus-classworlds-2.5.2.jar:/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.build.version" value="Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2015-04-22T13:57:37+02:00)"/>
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-YRmIP8/Render"/>
+    <property name="WORKSPACE" value="/Users/Yousef/.jenkins/jobs/Selenium2Maven/workspace"/>
+    <property name="env.POM_PACKAGING" value="jar"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LANG" value="de_DE.UTF-8"/>
+    <property name="env.BUILD_ID" value="7"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="env.GIT_BRANCH" value="origin/master"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0:3"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes"/>
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-6iMVFM/Listeners"/>
+    <property name="env.WORKSPACE" value="/Users/Yousef/.jenkins/jobs/Selenium2Maven/workspace"/>
+    <property name="maven.version" value="3.3.3"/>
+    <property name="env.GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="6b4d870beca00689ec1eaf17c17f16103d6575fb"/>
+    <property name="user.country" value="DE"/>
+    <property name="env.EXECUTOR_NUMBER" value="1"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="env.SHELL" value="/bin/bash"/>
+    <property name="maven.home" value="/Users/Yousef/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MavenV3.3.3"/>
+    <property name="__CHECKFIX1436934" value="1"/>
+    <property name="HOME" value="/Users/Yousef"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="SSH_AUTH_SOCK" value="/tmp/launch-6iMVFM/Listeners"/>
+    <property name="env.POM_GROUPID" value="com.seleniumtests"/>
+    <property name="env.HUDSON_COOKIE" value="4f952bb7-44be-4949-9bef-803ea008bfec"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="POM_DISPLAYNAME" value="seleniumtests"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="GIT_URL" value="https://github.com/Alhajsalem/SeleniumTest.git"/>
+  </properties>
+  <testcase classname="com.seleniumtests.test.WebDriverTest" name="testRegistrationNew" time="3.665"/>
+</testsuite>

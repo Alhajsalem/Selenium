@@ -1,0 +1,36 @@
+Xpath
+$x("//input[@id='searchInput']")
+$x("//input[@id='searchInput'][@name='search']")
+$x("//input[starts-with(@id, 'search')]")
+$x("//input[substring(@id, 2)= 'earchInput']")
+$x("//input[substring(@id, 2,5)= 'earch']")
+$x("//title[text()='selenium - Google-Suche']")
+$x("//title[normalize-space(text())='selenium - Google-Suche']") 
+$x("//title[normalize-space(.)='selenium - Google-Suche']")
+$x("//input[contains(@id, 'hIn')]")
+$x("//input[contains(@id, 'hIn')]/following-sibling::button")
+$x("//input[contains(@id, 'hIn')]/following-sibling::button/following-sibling::input")
+$x("//input[contains(@id, 'hIn')]/parent::fieldset")
+$x("//input[contains(@id, 'hIn')]/../../../..")
+x("//input[contains(@id, 'hIn')]/../../../following-sibling::div[5]")
+$x("//*[@class='divider']")
+$x("//select[@id='searchLanguage']/option[@lang='de']")
+$x("//*[@class='link-box'][@title='Deutsch — Wikipedia — Die freie Enzyklopädie']/small['1 873 000+ Artikel']")
+$x("//*[@class='mw-search-result-heading']/a[@title='Selenium (software)']")
+
+
+Css-Selector
+
+$$("select[id='searchLanguage']")
+$$("input[id='searchInput']")
+$$("select[id='searchLanguage'][name='language']")
+$$("select[id *='guage']")
+$$("select[id='searchLanguage']")
+$$("select[id='searchLanguage']>option:nth-child(1)")
+$$("select[id='searchLanguage']>option:nth-of-type(1)")
+
+
+DOM
+
+document.getElementsByName('firstName')
+document.getElementsByName('firstName')[0]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Tests" duration-ms="6208" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:46Z">
+    <groups>
+    </groups>
+    <test name="Test in FF" duration-ms="6208" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:46Z">
+      <class name="com.seleniumtests.test.WebDriverTest">
+        <test-method status="PASS" signature="setEnv(java.lang.String)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="setEnv" is-config="true" duration-ms="9" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/mercuryregister.php]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="launchBrowser" is-config="true" duration-ms="2450" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="testRegistrationNew(com.seleniumtests.dataobject.RegistrationData)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="testRegistrationNew" duration-ms="3665" started-at="2015-11-18T17:08:42Z" finished-at="2015-11-18T17:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.seleniumtests.dataobject.RegistrationData@5fac239c]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2015-11-18T17:08:46Z" finished-at="2015-11-18T17:08:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: testRegistrationNew STATUS:SUCCESS METHOD:WebDriverTest.testRegistrationNew(com.seleniumtests.dataobject.RegistrationData)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]]
+]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
