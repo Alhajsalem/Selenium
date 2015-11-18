@@ -11,7 +11,7 @@
 	</test>
 	<parameter name="appURL" value="http://newtours.demoaut.com/mercuryregister.php"></parameter> 
 
-	<test name="Test in FF">
+	<test name="Test in FF1">
 		<parameter name="browser" value="FF"></parameter>
 		<classes>
 			<class name="com.seleniumtests.test.WebDriverTest" />
