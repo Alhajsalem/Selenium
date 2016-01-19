@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium Tests" duration-ms="6208" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:46Z">
+  <suite name="Selenium Tests" duration-ms="6616" started-at="2015-11-18T17:44:59Z" finished-at="2015-11-18T17:45:06Z">
     <groups>
     </groups>
-    <test name="Test in FF" duration-ms="6208" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:46Z">
+    <test name="Test in FF" duration-ms="6616" started-at="2015-11-18T17:44:59Z" finished-at="2015-11-18T17:45:06Z">
       <class name="com.seleniumtests.test.WebDriverTest">
-        <test-method status="PASS" signature="setEnv(java.lang.String)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="setEnv" is-config="true" duration-ms="9" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:40Z">
+        <test-method status="PASS" signature="setEnv(java.lang.String)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="setEnv" is-config="true" duration-ms="8" started-at="2015-11-18T17:44:59Z" finished-at="2015-11-18T17:44:59Z">
           <params>
             <param index="0">
               <value>
@@ -16,7 +16,7 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="launchBrowser" is-config="true" duration-ms="2450" started-at="2015-11-18T17:08:40Z" finished-at="2015-11-18T17:08:42Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="launchBrowser" is-config="true" duration-ms="2572" started-at="2015-11-18T17:44:59Z" finished-at="2015-11-18T17:45:02Z">
           <params>
             <param index="0">
               <value>
@@ -25,16 +25,16 @@
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="testRegistrationNew(com.seleniumtests.dataobject.RegistrationData)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="testRegistrationNew" duration-ms="3665" started-at="2015-11-18T17:08:42Z" finished-at="2015-11-18T17:08:46Z">
+        <test-method status="PASS" signature="testRegistrationNew(com.seleniumtests.dataobject.RegistrationData)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="testRegistrationNew" duration-ms="3952" started-at="2015-11-18T17:45:02Z" finished-at="2015-11-18T17:45:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.seleniumtests.dataobject.RegistrationData@5fac239c]]>
+                <![CDATA[com.seleniumtests.dataobject.RegistrationData@1770b792]]>
               </value>
             </param>
           </params>
         </test-method>
-        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="closeBrowser" is-config="true" duration-ms="78" started-at="2015-11-18T17:08:46Z" finished-at="2015-11-18T17:08:46Z">
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:com.seleniumtests.test.WebDriverTest@6bf256fa]" name="closeBrowser" is-config="true" duration-ms="75" started-at="2015-11-18T17:45:06Z" finished-at="2015-11-18T17:45:06Z">
           <params>
             <param index="0">
               <value>
